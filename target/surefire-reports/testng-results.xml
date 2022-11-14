@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="65" started-at="2022-11-11T05:58:34Z" finished-at="2022-11-11T05:58:34Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestNG.main234()[pri:-1, instance:com.java.testng.TestNG@50f8360d]" name="main234" class="com.java.testng.TestNG"/>
+        <method signature="TestNG.main23()[pri:0, instance:com.java.testng.TestNG@50f8360d]" name="main23" class="com.java.testng.TestNG"/>
+        <method signature="TestNG1.test5()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test5" class="com.java.testng.TestNG1"/>
+      </group> <!-- smoke -->
+      <group name="tree">
+        <method signature="TestNG1.test6()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test6" class="com.java.testng.TestNG1"/>
+      </group> <!-- tree -->
+      <group name="sanity">
+        <method signature="TestNG.main1()[pri:2, instance:com.java.testng.TestNG@50f8360d]" name="main1" class="com.java.testng.TestNG"/>
+        <method signature="TestNG.main345()[pri:0, instance:com.java.testng.TestNG@50f8360d]" name="main345" class="com.java.testng.TestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="65" started-at="2022-11-11T05:58:34Z" finished-at="2022-11-11T05:58:34Z">
+      <class name="com.java.testng.TestNG">
+        <test-method status="PASS" signature="main234()[pri:-1, instance:com.java.testng.TestNG@50f8360d]" name="main234" duration-ms="0" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main234 -->
+        <test-method status="PASS" signature="main345()[pri:0, instance:com.java.testng.TestNG@50f8360d]" name="main345" duration-ms="0" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main345 -->
+        <test-method status="PASS" signature="main1()[pri:2, instance:com.java.testng.TestNG@50f8360d]" name="main1" duration-ms="1" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main1 -->
+        <test-method status="PASS" signature="main23()[pri:0, instance:com.java.testng.TestNG@50f8360d]" name="main23" duration-ms="0" depends-on-groups="sanity" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main23 -->
+      </class> <!-- com.java.testng.TestNG -->
+      <class name="com.java.testng.TestNG1">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test01" is-config="true" duration-ms="14" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test011()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test011" is-config="true" duration-ms="6" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test011 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test5" duration-ms="2" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:com.java.testng.TestNG1@2cb4c3ab]" name="test6" duration-ms="2" started-at="2022-11-11T11:28:34Z" finished-at="2022-11-11T11:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- com.java.testng.TestNG1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

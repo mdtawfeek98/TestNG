@@ -1,0 +1,6 @@
+	<test  name="firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.java.testng.TestNG" />
+		</classes>
+	</test> <!-- Test -->
